@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kristina Lee">
+<title>Kristina Lee UX Design Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="topnav" id="myNav">
+    <a href="javascript:void(0)" class="navBar" onclick="closeNav()">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="topnav">
+      <a href="#home" class="navBar" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="navBar" onclick="closeNav()">Portfolio</a>
+      <a href="#about" class="navBar" onclick="closeNav()">About</a>
+      <a href="#contact" class="navBar" onclick="closeNav()">Contact</a>
+    </div>
+  </nav>
+
+  <span class="nav" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  
+
+  <header class="header" id="home">
+    <h1><b>Kristina Lee</b></h1>
+    <p> UX Design</p>
+  </header>
+
+  <img src="https://img1.wsimg.com/isteam/ip/2421b915-e390-447f-88b5-dc8a72f56404/blob-0019.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/fx-gs/rs=w:1023,h:1364" class=" image-profile" alt="my picture"></img>
+  
+
+    <div class="nav" id="about">
+      <h2>About</h2>
+      <hr class="opacity">
+      <p><strong>Behind the Design: Simplicity.</strong></p>
+      <p>I'm Kristina Lee. Designing an experience is about innovating interactions. My philosophy is to create connections between things, technologies and people. The result is a designed interaction of intuitive simplicity.</p>
+      <br>
+      <h3>My Skills</h3>
+      <p>User Research</p>
+      <p>Figma</p>
+      <p>Adobe XD</p>
+      <p>InVision</p>
+      <p>Bootstrap</p>
+      </div>
+      </div>
+    </div>
+
+    <button class="button">
+      <i class="fa fa-download"></i> Download Resume </button>
+
+  <div class="nav" id="portfolio">
+    <h2>My Portfolio</h2>
+    <hr class="opacity">
+
+    <section class="cards-wrapper">
+      <div class="card-grid-space">
+        <div class="num">01</div>
+        <a class="card" src="/My_First_Repo/img/iPhone 12 Pro Tulip.png">
+          <div>
+            <h1>Tulip Mobile App</h1>
+            <p>UX design of a conceptual community learning marketplace app.</p>
+            <div class="date">12 April 2022</div>
+            <div class="tags">
+              <div class="tag">UX</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <div class="num">02</div>
+        <a class="card" src="/My_First_Repo/img/iPhone 12 Pro Tulip.png">
+          <div>
+            <h1>Website Redesign</h1>
+            <p>Redesign of the NSA.Gov website, usability and branding.</p>
+            <div class="date">13 July 2022</div>
+            <div class="tags">
+              <div class="tag">UX/UI</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <div class="num">03</div>
+        <a class="card" src="/My_First_Repo/img/iPhone 12 Pro Tulip.png">
+          <div>
+            <h1>Non-profit Website Design</h1>
+            <p>Uasbility research and design of United Angels Foundation website.</p>
+            <div class="date">6/23/2022</div>
+            <div class="tags">
+              <div class="tag">UI</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+      </div>
+    </div>
+  
+    
+  
+    <div class="nav" id="contact">
+      <h2>Contact Me</h2>
+      <hr class="opacity">
+  
+      <section class="section">
+        <p><i class="fa fa-map-marker fa-fw xxlarge margin-right"></i> South Jordan, UT</p>
+        <p><i class="fa fa-phone fa-fw xxlarge margin-right"></i> Phone: (801) 830-2167</p>
+        <p><i class="fa fa-envelope fa-fw xxlarge margin-right"> </i> Email: klee@kristinaleeuxdesign.com</p>
+      </section>
+     <br>
+
+      <p><strong>Lets get in touch.</strong></p>
+        <p>Send me a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="input" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="input" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="input" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="input" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="button" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>  
+
+  </div>
+ 
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "60%";
+    document.getElementById("myNav").style.display = "block";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+  }
+
+  function closeBar(){
+    document.getElementById("myNav").style.display = "none";
+  }
+  </script>
+  
+  </body>
+  </html>
+  
